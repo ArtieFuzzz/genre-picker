@@ -1,7 +1,11 @@
 ---
+import GenrePicker from '../components/GenrePicker.svelte'
 import MainLayout from '../layouts/MainLayout.astro'
 ---
 
 <MainLayout>
-
+  <div class='h-screen w-screen flex flex-col justify-center items-center'>
+    <h1 class='text-7xl text-bold'>Genre Picker</h1>
+    <GenrePicker client:load></GenrePicker>
+  </div>
 </MainLayout>

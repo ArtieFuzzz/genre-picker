@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$text: rgb(255, 255, 255);
+$background: rgb(38, 24, 30);
+$primary: rgb(124, 29, 135);
+$secondary: rgb(143, 17, 41);
+$accent: rgb(222, 134, 180);
+
+body {
+  background-color: $background;
+}
+
+:where(h1, h2, h3, p) {
+  color: $text !important;
+}
+
+:where(button) {
+  color: $text !important;
+  background-color: $primary !important;
+  height: 50px;
+  width: 95px;
+}
