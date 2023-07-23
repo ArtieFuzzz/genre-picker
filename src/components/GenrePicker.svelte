@@ -19,8 +19,6 @@
       genres = res.split('\n')
       genres_length = genres!.length
 
-      console.info(`Loaded ${length} genres`)
-
       genre = genres[Math.floor(Math.random() * genres_length)]
     } catch {
       genre = 'ERROR: Could not fetch /genres.txt try refreshing'
@@ -29,9 +27,9 @@
 </script>
 
 {#if !genre}
-  <p class="text-xl font-mono">Picking a genre...</p>
+  <p class="text-xl font-mono mt-0">Picking a genre...</p>
 {:else}
-  <p class="text-xl font-mono">
+  <p class="text-xl font-mono mt-0">
     The genre I have chosen is... <span class="font-extrabold">{genre}</span>
   </p>
   <button class="rounded-md" on:click={async () => pick()}>Re-pick</button>
