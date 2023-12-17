@@ -91,16 +91,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/svelte@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@astrojs/svelte@npm:3.1.0"
+"@astrojs/svelte@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "@astrojs/svelte@npm:5.0.1"
   dependencies:
-    "@sveltejs/vite-plugin-svelte": ^2.4.2
-    svelte2tsx: ^0.6.15
+    "@sveltejs/vite-plugin-svelte": ^3.0.0
+    svelte2tsx: ^0.6.25
   peerDependencies:
-    astro: ^2.7.1
-    svelte: ^3.55.0 || ^4.0.0
-  checksum: 30944f88467adfe2fa988ca4af3a4d099dedb42affbfe0e233a19545707f9e25159f6c25de30c8b1bb17f817912743205413783f0edfe17f500c6b8d70bcadee
+    astro: ^4.0.0
+    svelte: ^4.0.0 || ^5.0.0-next.1
+  checksum: 5a78449ec2f9b806540446d51d79ab2f4f0097571501630e26a8ed8af6ce46c49d16281db324b243813c0758a969de87107056466d58560b4b8f63bf1b414ee7
   languageName: node
   linkType: hard
 
@@ -911,34 +911,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte-inspector@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@sveltejs/vite-plugin-svelte-inspector@npm:1.0.3"
+"@sveltejs/vite-plugin-svelte-inspector@npm:^2.0.0-next.0 || ^2.0.0":
+  version: 2.0.0
+  resolution: "@sveltejs/vite-plugin-svelte-inspector@npm:2.0.0"
   dependencies:
     debug: ^4.3.4
   peerDependencies:
-    "@sveltejs/vite-plugin-svelte": ^2.2.0
-    svelte: ^3.54.0 || ^4.0.0
-    vite: ^4.0.0
-  checksum: 868574e32974196a49670137c171e788f95610548d8ff090267d4a6e92fd2d5e3ab862e0c367e69268d57ab6edd972e3ba5139926d7e2e7f995f23336d8d53be
+    "@sveltejs/vite-plugin-svelte": ^3.0.0
+    svelte: ^4.0.0 || ^5.0.0-next.0
+    vite: ^5.0.0
+  checksum: 56014ceff0e252ace5fb3eb9520c9c56db933767c3b8ce40c4fdddfcb216a89666729748eadadb4ce532fbab06bfed49ff49bdb44e36f6eae0e3a090eb7288b5
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "@sveltejs/vite-plugin-svelte@npm:2.4.2"
+"@sveltejs/vite-plugin-svelte@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@sveltejs/vite-plugin-svelte@npm:3.0.1"
   dependencies:
-    "@sveltejs/vite-plugin-svelte-inspector": ^1.0.3
+    "@sveltejs/vite-plugin-svelte-inspector": ^2.0.0-next.0 || ^2.0.0
     debug: ^4.3.4
     deepmerge: ^4.3.1
     kleur: ^4.1.5
-    magic-string: ^0.30.0
-    svelte-hmr: ^0.15.2
-    vitefu: ^0.2.4
+    magic-string: ^0.30.5
+    svelte-hmr: ^0.15.3
+    vitefu: ^0.2.5
   peerDependencies:
-    svelte: ^3.54.0 || ^4.0.0
-    vite: ^4.0.0
-  checksum: 7da34ec671abca010e95167e21df138fc4e18717dbcb595f34f0f5a68a281a313c9e2aa70559e7a95458482d44243a575bee8adb007ff59855e80fd44ad323af
+    svelte: ^4.0.0 || ^5.0.0-next.0
+    vite: ^5.0.0
+  checksum: 3a6b3a1bae74bf8e5ed5cb979c2e4d663fcecffb17941de70a44f8e58efdaa58adbd234efbaa4b537cf745ad6a66062f6f2fdc5f94e83592728f5d9b05737760
   languageName: node
   linkType: hard
 
@@ -3348,6 +3348,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.30.5":
+  version: 0.30.5
+  resolution: "magic-string@npm:0.30.5"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.15
+  checksum: da10fecff0c0a7d3faf756913ce62bd6d5e7b0402be48c3b27bfd651b90e29677e279069a63b764bcdc1b8ecdcdb898f29a5c5ec510f2323e8d62ee057a6eb18
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
@@ -4070,7 +4079,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "music-genre-generator@workspace:."
   dependencies:
-    "@astrojs/svelte": ^3.1.0
+    "@astrojs/svelte": ^5.0.0
     "@astrojs/tailwind": ^4.0.0
     "@astrojs/vercel": ^3.7.4
     "@tailwindcss/typography": ^0.5.9
@@ -5364,25 +5373,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-hmr@npm:^0.15.2":
-  version: 0.15.2
-  resolution: "svelte-hmr@npm:0.15.2"
+"svelte-hmr@npm:^0.15.3":
+  version: 0.15.3
+  resolution: "svelte-hmr@npm:0.15.3"
   peerDependencies:
-    svelte: ^3.19.0 || ^4.0.0-next.0
-  checksum: bf1179de47100353ef002d96e2b20782420a388cc5a451a1c3564643fde0423ac7b689a4cded728a6dee5e30a80e44089790be4bf5c37189b14704bf8a6efaf6
+    svelte: ^3.19.0 || ^4.0.0
+  checksum: 09518aad14288b15e723e69376d2044330f52f49c2730a5e1357b4bee5928c04c5e4022f713856f51ef08ccf3fb5639e870ac89a44c0cb573cedf395017e2402
   languageName: node
   linkType: hard
 
-"svelte2tsx@npm:^0.6.15":
-  version: 0.6.19
-  resolution: "svelte2tsx@npm:0.6.19"
+"svelte2tsx@npm:^0.6.25":
+  version: 0.6.27
+  resolution: "svelte2tsx@npm:0.6.27"
   dependencies:
     dedent-js: ^1.0.1
     pascal-case: ^3.1.1
   peerDependencies:
-    svelte: ^3.55 || ^4.0.0-next.0 || ^4.0
+    svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
     typescript: ^4.9.4 || ^5.0.0
-  checksum: 30d4893c29fb0bdb707aceb55de8b53fc6426e28648afb5676ea00647095454606ab6d79ee707f3ee5b5673cd7e640b4d99ac2bbf1d4e4b7c0be88cec9a82fdc
+  checksum: 5c34e374b934d0d2129f24092c4ca7d86eeffdc621dbf1dd62ccf039aac9a911539a7903cb8d7deb5644d8f7d23dc75586c8491b12552eb3414415725c5930ff
   languageName: node
   linkType: hard
 
@@ -5834,6 +5843,18 @@ __metadata:
     vite:
       optional: true
   checksum: 4add282ffec4f27388aa75df2cd7db9a674d51bf9471907441ca23ff5ac70fc9540344dbf3a53af0aa53685f1d7b8c756da5f9749afe91aac66c82a25ade7821
+  languageName: node
+  linkType: hard
+
+"vitefu@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "vitefu@npm:0.2.5"
+  peerDependencies:
+    vite: ^3.0.0 || ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    vite:
+      optional: true
+  checksum: 1a58f3f8b2fe493f595952ad2e8d2876a18e2de16b211c2e795af879863948db838bdcc962d300c7fbd8d827ee616905d7799c30a46206a045aec5f7c8e5031b
   languageName: node
   linkType: hard
 
