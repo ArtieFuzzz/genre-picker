@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/svelte": "^3.1.0",
     "@astrojs/tailwind": "^4.0.0",
-    "@astrojs/vercel": "^3.7.4",
+    "@astrojs/vercel": "^7.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "astro": "^2.9.1",
     "sass": "^1.64.1",
